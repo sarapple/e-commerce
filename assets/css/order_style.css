@@ -1,0 +1,18 @@
+/*Ulysses Lin 12/5/14*/
+*{
+    padding: 0px;
+    margin: 0px;
+    font-family: sans-serif;
+}
+body{
+    width: 1600px;
+}
+    #main{
+        width: 1600px;
+        height: 1600px;
+        margin: 10px auto;
+    }
+    img{
+        width: 20px;
+        height: 20px;
+    }
