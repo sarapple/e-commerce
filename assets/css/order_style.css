@@ -1,18 +1,82 @@
-/*Ulysses Lin 12/5/14*/
+/*Ulysses Lin 12/9/14*/
+
 *{
     padding: 0px;
     margin: 0px;
     font-family: sans-serif;
+    color: RGB(20,20,20);
 }
-body{
-    width: 1600px;
+#main{
+    width: 1000px;
+    margin: 50px auto;
 }
-    #main{
-        width: 1600px;
-        height: 1600px;
+    a{
+        text-decoration: none;
+    }
+    #SearchForm input{
+            height: 20px;
+            width: 100%;
+            background-color: #ddd;
+            box-shadow: inset 1px 3px 2px gray;
+            color: black;
+            border: 0px;
+            line-height: 20px;
+            text-align: center;
+            border-radius: .3em;
+    }
+    #pages{
+        text-align: center;
+        border-bottom: dotted gray 1px;
         margin: 10px auto;
+        width: 100%;
     }
-    img{
-        width: 20px;
-        height: 20px;
+        .page{
+            color: #FF7276;
+        }
+    #add-new-button{
+            float: right;
     }
+    h1{
+        width: 100%;
+        padding-top: 1%;
+        padding-bottom: 1%;
+        color: black;
+        border-radius: 2em;
+    }
+    th{
+        background-color: #ddd;
+        text-align: left;
+        color: black;
+    }
+    th {
+        border-color: 
+    }
+    .page-container{
+        display: inline;
+        text-decoration: none;
+        border-bottom: solid RGB(188,188,188) 1px;
+    }
+    .id-link{
+        color: #FF7276;
+    }
+/*edit_view styling*/
+    table{
+        width: 100%;
+        border-collapse: collapse;
+    }
+        th,td{
+            padding: 5px;
+            border: solid gray 1px;
+        }
+            .small {
+                width: 5%;
+            }
+            .date {
+                width: 10%;
+            }
+            .address {
+                width: 40%;
+            }
+            .shipStatus {
+                width: 35%;
+            }   
